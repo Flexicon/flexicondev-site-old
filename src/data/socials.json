@@ -1,0 +1,22 @@
+[
+  {
+    "title": "GitHub",
+    "url": "https://github.com/flexicon",
+    "icon": "github"
+  },
+  {
+    "title": "StackOverflow",
+    "url": "https://stackoverflow.com/users/3112167/flexicon",
+    "icon": "stack-overflow"
+  },
+  {
+    "title": "Twitter",
+    "url": "https://twitter.com/flexicondev",
+    "icon": "twitter"
+  },
+  {
+    "title": "LinkedIn",
+    "url": "https://www.linkedin.com/in/micha%C5%82-repe%C4%87-a844748b/",
+    "icon": "linkedin"
+  }
+]
