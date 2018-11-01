@@ -23,7 +23,7 @@ const IndexPage = ({ data: { allSocialsJson } }) => (
               <Link href={url} isButton>
                 <FontAwesomeIcon
                   icon={{ prefix: 'fab', iconName: icon }}
-                  style={{ minWidth: '18px' }}
+                  style={{ width: '18px' }}
                 />{' '}
                 {title}
               </Link>
