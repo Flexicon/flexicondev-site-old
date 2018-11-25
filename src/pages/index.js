@@ -37,7 +37,15 @@ const IndexPage = ({ data: { allSocialsJson } }) => (
         </p>
 
         <p>
-          You can find links to the fruits of my labour below
+          (
+          <span role="img" aria-label="work in progress">
+            🚧
+          </span>
+          Work in progress{' '}
+          <span role="img" aria-label="work in progress">
+            🚧
+          </span>
+          ) You can find links to the fruits of my labour below
           <span role="img" aria-label="pointing right">
             👇
           </span>
