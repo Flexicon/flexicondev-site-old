@@ -9,9 +9,6 @@ import Link from '../components/link'
 const IndexPage = ({ data: { allSocialsJson } }) => (
   <Layout>
     <h1 className="f4 w-90 w-80-m f3-ns">
-      <span role="img" aria-label="wave">
-        👋
-      </span>{' '}
       Hi I'm Mike, and I make things on the web
     </h1>
     <div className="w-80-ns">
@@ -46,9 +43,6 @@ const IndexPage = ({ data: { allSocialsJson } }) => (
             🚧
           </span>
           ) You can find links to the fruits of my labour below
-          <span role="img" aria-label="pointing right">
-            👇
-          </span>
         </p>
       </div>
 

@@ -2,10 +2,10 @@ import React from 'react'
 import classNames from 'classnames'
 import { Link as GatsbyLink } from 'gatsby'
 
-const btnClasses = 'ba b--light-silver br2 bg-white pv1 ph2 db'
+const btnClasses = 'ba b--light-silver br2 bg-dark-gray pv1 ph2 db'
 
 const Link = ({ to, href, className, isButton, children }) => {
-  const classes = classNames(className, 'link blue dim', {
+  const classes = classNames(className, 'link light-green dim', {
     [btnClasses]: isButton,
   })
 
