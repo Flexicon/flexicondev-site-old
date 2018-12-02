@@ -43,7 +43,7 @@ const Layout = ({ children }) => (
         >
           <html lang="en" />
         </Helmet>
-        <div className="black-70">
+        <div className="white-90">
           <Header siteTitle={data.site.siteMetadata.title} />
           <div className="center w-90 w-60-l pv3 pv4-ns">{children}</div>
         </div>
