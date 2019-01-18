@@ -11,7 +11,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 
 import Header from './header'
-import '../style/tachyons.min.css'
+import 'bulma/css/bulma.min.css'
 import './layout.css'
 
 library.add([faGithub, faLinkedin, faTwitter, faStackOverflow])
