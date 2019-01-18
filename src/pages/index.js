@@ -3,7 +3,6 @@ import { graphql } from 'gatsby'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import Layout from '../components/layout'
-import Posts from '../components/posts'
 import Link from '../components/link'
 
 const IndexPage = ({ data: { allSocialsJson } }) => (
@@ -27,27 +26,6 @@ const IndexPage = ({ data: { allSocialsJson } }) => (
             </li>
           ))}
         </ul>
-
-        <p>
-          Sometimes I like to discuss and ramble about tech stuff. So I decided
-          to start writing things down and make my ramblings publicly available.
-        </p>
-
-        <p>
-          (
-          <span role="img" aria-label="work in progress">
-            🚧
-          </span>
-          Work in progress{' '}
-          <span role="img" aria-label="work in progress">
-            🚧
-          </span>
-          ) You can find links to the fruits of my labour below
-        </p>
-      </div>
-
-      <div className="pv3">
-        <Posts />
       </div>
     </div>
   </Layout>
