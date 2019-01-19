@@ -1,0 +1,22 @@
+.StackTags {
+  margin-left: 15px;
+}
+
+.StackTags .tag {
+  margin-left: 5px;
+}
+
+.StackTags .tag:first-child {
+  margin-left: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .StackTags {
+    margin: 5px 0 15px 0;
+    text-align: center;
+  }
+}
+
+.StackTags .tag.is-success {
+  background-color: #41b883;
+}
