@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'FlexiconDev | Mike Repec',
+    subtitle: 'I make computers do stuff',
     description: 'Mike Repec - Web developer and code monkey extraordinaire',
     keywords: 'developer, javascript, it, tech, web',
   },

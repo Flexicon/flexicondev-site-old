@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Whisky.pl",
+    "url": "https://whisky.pl/",
+    "tags": ["php", "vue"]
+  },
+  {
+    "title": "holaSpirit",
+    "url": "https://www.holaspirit.com/",
+    "tags": ["react", "redux"]
+  }
+]

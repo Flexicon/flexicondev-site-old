@@ -2,16 +2,16 @@ import React from 'react'
 import classNames from 'classnames'
 import { Link as GatsbyLink } from 'gatsby'
 
-const btnClasses = 'ba b--light-silver br2 bg-dark-gray pv1 ph2 db'
+const btnClasses = 'button is-primary'
 
 const Link = ({ to, href, className, isButton, children }) => {
-  const classes = classNames(className, 'link light-green dim', {
+  const classes = classNames(className, '', {
     [btnClasses]: isButton,
   })
 
   if (href) {
     return (
-      <a href={href} className={classes}>
+      <a href={href} target="_blank" rel="noopener noreferrer" className={classes}>
         {children}
       </a>
     )

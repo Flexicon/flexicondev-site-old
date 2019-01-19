@@ -1,0 +1,17 @@
+.LinkList {
+  margin-top: 10px;
+}
+
+.LinkList li {
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.LinkList a.button svg {
+  margin-right: 3px;
+}
+
+.LinkList a.button {
+  width: 300px;
+  max-width: 100%;
+}

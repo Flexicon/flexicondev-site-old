@@ -11,8 +11,9 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 
 import Header from './header'
-import '../style/tachyons.min.css'
+import 'bulma/css/bulma.min.css'
 import './layout.css'
+import Cookies from './cookies'
 
 library.add([faGithub, faLinkedin, faTwitter, faStackOverflow])
 
@@ -23,6 +24,7 @@ const Layout = ({ children }) => (
         site {
           siteMetadata {
             title
+            subtitle
             description
             keywords
           }
@@ -43,10 +45,16 @@ const Layout = ({ children }) => (
         >
           <html lang="en" />
         </Helmet>
-        <div className="white-90">
-          <Header siteTitle={data.site.siteMetadata.title} />
-          <div className="center w-90 w-60-l pv3 pv4-ns">{children}</div>
+
+        <Header
+          title={data.site.siteMetadata.title}
+          subtitle={data.site.siteMetadata.subtitle}
+        />
+        <div className="section">
+          <div className="container">{children}</div>
         </div>
+
+        <Cookies />
       </>
     )}
   />
