@@ -2,11 +2,19 @@
   {
     "title": "Whisky.pl",
     "url": "https://whisky.pl/",
-    "tags": ["php", "vue"]
+    "tags": ["php", "zend", "vue"],
+    "features": "user added recipes, gamification, leader boards"
   },
   {
     "title": "holaSpirit",
     "url": "https://www.holaspirit.com/",
-    "tags": ["react", "redux"]
+    "tags": ["react", "redux"],
+    "features": "organization management, work productivity with task/project/todo tools"
+  },
+  {
+    "title": "ResaleRev",
+    "url": "https://www.resalerev.com/",
+    "tags": ["php"],
+    "features": "user created & managed resale directories, payment subscriptions"
   }
 ]

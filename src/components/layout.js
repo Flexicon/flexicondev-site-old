@@ -3,11 +3,17 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 import { library } from '@fortawesome/fontawesome-svg-core'
+import { faHeart } from '@fortawesome/free-solid-svg-icons'
 import {
   faGithub,
   faLinkedin,
   faTwitter,
   faStackOverflow,
+  faJs,
+  faDocker,
+  faAws,
+  faAndroid,
+  faApple,
 } from '@fortawesome/free-brands-svg-icons'
 
 import Header from './header'
@@ -15,7 +21,18 @@ import 'bulma/css/bulma.min.css'
 import './layout.css'
 import Cookies from './cookies'
 
-library.add([faGithub, faLinkedin, faTwitter, faStackOverflow])
+library.add([
+  faGithub,
+  faLinkedin,
+  faTwitter,
+  faStackOverflow,
+  faJs,
+  faDocker,
+  faHeart,
+  faAws,
+  faAndroid,
+  faApple,
+])
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -50,9 +67,13 @@ const Layout = ({ children }) => (
           title={data.site.siteMetadata.title}
           subtitle={data.site.siteMetadata.subtitle}
         />
-        <div className="section">
-          <div className="container">{children}</div>
-        </div>
+        {children}
+
+        <footer className="footer">
+          <div className="content has-text-centered">
+            <p>© 2018 Michal Repec. All rights reserved.</p>
+          </div>
+        </footer>
 
         <Cookies />
       </>

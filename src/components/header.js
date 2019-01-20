@@ -6,9 +6,9 @@ const Header = ({ title, subtitle }) => (
     <div className="hero-body">
       <div className="container">
         <Link to="/">
-          <h1 className="title has-text-primary">{title}</h1>
+          <h1 className="title is-size-2-touch is-size-1-desktop has-text-primary">{title}</h1>
         </Link>
-        <h2 className="subtitle">{subtitle}</h2>
+        <h2 className="subtitle is-size-4-desktop">{subtitle}</h2>
       </div>
     </div>
   </section>

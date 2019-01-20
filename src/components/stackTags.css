@@ -2,6 +2,10 @@
   margin-left: 15px;
 }
 
+.StackTags.noMargin {
+  margin: 0;
+}
+
 .StackTags .tag {
   margin-left: 5px;
 }
@@ -17,6 +21,17 @@
   }
 }
 
-.StackTags .tag.is-success {
+.StackTags .tag.is-vue {
   background-color: #41b883;
+  color: #fff;
+}
+
+.StackTags .tag.is-zend {
+  background-color: #41a41d;
+  color: #fff;
+}
+
+.StackTags .tag.is-android {
+  background-color: #A5C836;
+  color: #fff;
 }

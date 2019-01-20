@@ -1,4 +1,5 @@
 import React from 'react'
+import classNames from 'classnames'
 
 import './stackTags.css'
 
@@ -9,7 +10,7 @@ const tagTypes = {
   },
   vue: {
     label: 'Vue.js',
-    color: 'success',
+    color: 'vue',
   },
   angular: {
     label: 'Angular',
@@ -27,12 +28,21 @@ const tagTypes = {
     label: 'Node.js',
     color: 'warning',
   },
+  zend: {
+    label: 'Zend 3',
+    color: 'zend',
+  },
+  android: {
+    label: 'Android',
+    color: 'android',
+  },
 }
 
-const StackTags = ({ tags }) => (
-  <span className="StackTags is-block-mobile">
+const StackTags = ({ tags, noMargin }) => (
+  <span className={classNames('StackTags is-block-mobile', { noMargin })}>
     {tags.map(tag => {
-      const { label, color } = tagTypes[tag]
+      const foundTag = tagTypes[tag]
+      const { label, color } = foundTag || { label: tag, color: 'light' }
       return (
         <span key={tag} className={`tag is-${color}`}>
           {label}
