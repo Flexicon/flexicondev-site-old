@@ -2,9 +2,15 @@
   margin-top: 10px;
 }
 
+.LinkList.LinkList--centered {
+  width: 100%;
+  margin: 10px auto 0;
+}
+
 .LinkList li {
   align-items: center;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  position: relative;
 }
 
 .LinkList a.button svg {
@@ -14,4 +20,8 @@
 .LinkList a.button {
   width: 300px;
   max-width: 100%;
+}
+
+.LinkList.LinkList--centered a.button {
+  width: 100%;
 }

@@ -7,4 +7,20 @@ html {
   .is-h-100-tablet {
     height: 100%;
   }
+
+  .links-columns {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-column-gap: 50px;
+  }
+}
+
+.links-columns .column {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Default width for FontAwesome icons */
+.svg-inline--fa {
+  width: 1em;
 }

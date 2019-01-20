@@ -31,8 +31,9 @@ class Cookies extends React.PureComponent {
           <div className="container">
             <div className="notification is-primary">
               <button className="delete" onClick={this.acceptCookies} />
-              Hi, this site doesn't really use 🍪 but if does in the future,
-              here's a heads up!
+              Hi, like many others, this site may or may not use cookies 🍪to
+              store information. This is just a heads up, to make sure you're
+              cool with that!
             </div>
           </div>
         </div>
