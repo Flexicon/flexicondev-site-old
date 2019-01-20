@@ -111,27 +111,21 @@ export const query = graphql`
 
 export default IndexPage
 
-const iconWidth = '18px'
 const iconStyles = {
   heart: {
     marginRight: '3px',
     color: '#E25555',
-    width: iconWidth,
   },
   js: {
     color: '#F0DA50',
-    width: iconWidth,
   },
   docker: {
     color: '#196DAC',
-    width: iconWidth,
   },
   android: {
     color: '#A5C836',
-    width: iconWidth,
   },
   aws: {
     color: '#FF9901',
-    width: iconWidth,
   },
 }
