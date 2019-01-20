@@ -12,10 +12,7 @@ const IndexPage = ({ data: { allSocialsJson, allWorkJson } }) => (
       <div className="container">
         <h3 className="title">About</h3>
         <div className="box">
-          <p
-            className="has-text-centered"
-            style={{ marginBottom: '1rem' }}
-          >
+          <p className="has-text-centered" style={{ marginBottom: '1rem' }}>
             Passionate Web Developer with a particular love for all things
             JavaScript. (
             <FontAwesomeIcon icon="heart" style={iconStyles.heart} />
@@ -114,21 +111,27 @@ export const query = graphql`
 
 export default IndexPage
 
+const iconWidth = '18px'
 const iconStyles = {
   heart: {
     marginRight: '3px',
     color: '#E25555',
+    width: iconWidth,
   },
   js: {
     color: '#F0DA50',
+    width: iconWidth,
   },
   docker: {
     color: '#196DAC',
+    width: iconWidth,
   },
   android: {
     color: '#A5C836',
+    width: iconWidth,
   },
   aws: {
     color: '#FF9901',
+    width: iconWidth,
   },
 }
