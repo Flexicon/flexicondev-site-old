@@ -4697,8 +4697,9 @@ gatsby-plugin-manifest@^2.0.5:
     sharp "^0.21.0"
 
 gatsby-plugin-offline@^2.0.5:
-  version "2.0.10"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-2.0.10.tgz#23882293df3890f1237f8485b6816f6ca0a591a8"
+  version "2.0.15"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-2.0.15.tgz#bfebfc28aafcab29cb57732abc5d211137d2ed6c"
+  integrity sha512-21+eGMZ0s+r8o6G5UoFnr2r9ZUHM1VVLf+l1tXqPXTL9KeLOHCgSi+JUklv/gyFLjh/49AiEjaxmk2WL8VYfVg==
   dependencies:
     "@babel/runtime" "^7.0.0"
     cheerio "^1.0.0-rc.2"
