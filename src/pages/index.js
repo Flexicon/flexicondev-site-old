@@ -21,7 +21,7 @@ const IndexPage = ({ data: { allSocialsJson, allWorkJson } }) => (
               style={iconStyles.js}
             />
             ) <br />
-            Crazy about automation, virtualization and DevOps{' '}
+            Crazy about automation, virtualization and learning about DevOps{' '}
             <FontAwesomeIcon
               icon={{ prefix: 'fab', iconName: 'aws' }}
               style={iconStyles.aws}
@@ -32,7 +32,7 @@ const IndexPage = ({ data: { allSocialsJson, allWorkJson } }) => (
               style={iconStyles.docker}
             />
             ). <br />
-            Become more and more engaged with Golang and Python.
+            Becoming more and more engaged with Golang and Python.
           </p>
 
           <p className="has-text-centered">
