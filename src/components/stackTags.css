@@ -35,3 +35,8 @@
   background-color: #A5C836;
   color: #fff;
 }
+
+.StackTags .tag.is-symfony {
+  background-color: #666666;
+  color: #fff;
+}
