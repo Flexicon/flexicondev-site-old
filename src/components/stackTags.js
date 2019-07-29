@@ -36,6 +36,10 @@ const tagTypes = {
     label: 'Android',
     color: 'android',
   },
+  symfony: {
+    label: 'Symfony',
+    color: 'symfony',
+  },
 }
 
 const StackTags = ({ tags, noMargin }) => (
