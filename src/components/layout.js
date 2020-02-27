@@ -19,7 +19,6 @@ import {
 import Header from './header'
 import 'bulma/css/bulma.min.css'
 import './layout.css'
-import Cookies from './cookies'
 
 library.add([
   faGithub,
@@ -82,8 +81,6 @@ const Layout = ({ children }) => (
             </a>
           </div>
         </footer>
-
-        <Cookies />
       </>
     )}
   />

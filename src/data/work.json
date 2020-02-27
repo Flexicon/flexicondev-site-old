@@ -1,5 +1,17 @@
 [
   {
+    "title": "CountTracker",
+    "url": "https://count.nerfthis.xyz/",
+    "tags": ["vue"],
+    "features": "progressive web app, stores arbitrary counters for users to keep track of"
+  },
+  {
+    "title": "TFT Suggester",
+    "url": "https://tft-suggester.nerfthis.xyz/",
+    "tags": ["vue", "python"],
+    "features": "statically rendered site, list and filter through simple scraped game data"
+  },
+  {
     "title": "Whisky.pl",
     "url": "https://whisky.pl/",
     "tags": ["php", "zend", "vue"],

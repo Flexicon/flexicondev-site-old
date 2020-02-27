@@ -40,6 +40,10 @@ const tagTypes = {
     label: 'Symfony',
     color: 'symfony',
   },
+  python: {
+    label: 'Python',
+    color: 'warning',
+  },
 }
 
 const StackTags = ({ tags, noMargin }) => (
